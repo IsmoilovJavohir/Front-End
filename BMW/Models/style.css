@@ -1,0 +1,319 @@
+html {
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 23px;
+    border-bottom: 2px rgba(38, 39, 41, 0.664) solid;
+    margin-right: 90px;
+    margin-left: 90px;
+    /* transition: 1s; */
+    /* hederni do'g'irlash garak birhil atib */
+}
+.header-nav {
+    margin-top: 9px;
+    margin-left: 95px;
+}
+nav a {
+    margin-left: 22px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: rgb(20, 22, 23);
+    font: 1.3em sans-serif;
+}
+nav a:hover {
+    color: black;
+    opacity: 1;
+    border-bottom: 3px solid;
+    padding: 27.5px 0px;
+    transition: 0.2s;
+}
+.container img {
+    width: 10%;
+    height: 10vh;
+    margin-right: 8px;
+}
+.logo-img {
+    margin-left: 40px;
+    margin-bottom: 38px;
+}
+.logo-img img {
+    position: absolute;
+    width: 4%;
+    height: 8vh;
+}
+.container span img {
+    width: 35px;
+    height: 35px;
+}
+.icon {
+    margin-top: 4px;
+    margin-left: 251px;
+    word-spacing: 16px;
+}
+.div-text div {
+    padding-left: 83px;
+}
+.div-text {
+    padding: 22px;
+    top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1;
+    position: sticky;
+    background: linear-gradient(white);
+    backdrop-filter: blur(5px);
+    /* -webkit-backdrop-filter: blur(5px); */
+}
+.alone p {
+    margin-top: 100px;
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: rgba(31, 28, 28, 0.952);
+}
+.div-a a {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #252525;
+    font-size: 16px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-a a:hover {
+    color: black;
+    border-bottom: 4px solid rgb(25, 25, 25);
+    margin: 0px -5px;
+    padding: 15px 20px;
+}
+.BMW-i {
+    margin-top: 18px;
+    border-top: 1px solid rgba(169, 169, 169, 0.589);
+}
+.BMW-i p {
+    color: rgb(7, 7, 7);
+    padding: 35px 66px 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article-1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    padding: 0px 60px;
+}
+.article-1 section {
+    width: 280px;
+    height: 236px;
+}
+.BMW-Xi img {
+    width: 300px;
+    height: 185px;
+    margin: -10px 0px;
+    position: absolute;
+    transition: 0.6s;
+}
+.BMW-Xi img:hover {
+    transform: scale(1.2);
+}
+.span-NEW span {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(39, 37, 37);
+    padding: 1px 5px;
+    margin-left: 199px;
+}
+.ev-station img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+.M-Power img {
+    width: 40px;
+    margin-top: 55px;
+    margin-left: 15px;
+}
+.bmw-xi-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(63, 62, 62);
+    margin-left: 15px;
+}
+.bmw-xi-name p {
+    font-weight: 600;
+    color: black;
+}
+.BMW-iX2 img {
+    width: 330px;
+    height: 185px;
+    margin: -10px -30px;
+    position: absolute;
+    transition: 0.6s;
+}
+.BMW-iX2 img:hover {
+    transform: scale(1.2);
+}
+.ev-station1 img {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+}
+.ev-station5 img {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+.M-Power-bag img {
+    width: 50px;
+    margin-top: 57px;
+    margin-left: 15px;}
+    .x {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 23px;
+        color: rgb(7, 7, 7);
+        padding-left: 83px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(169, 169, 169, 0.589);
+    }
+    .article-x1 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 15px;
+        padding: 0px 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 35px;
+        font-weight: 500;
+        color: black;
+    }
+    .article-x1 span {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(0, 0, 0, 0.884);
+    }
+    .article-x1 img {
+        width: 300px;
+        height: 175px;
+        position: relative;
+        transition: 0.6s;
+    }
+    .article-x1 img:hover {
+        transform: scale(1.2);
+    }
+    .new span {
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: white;
+        border: 1px solid black;
+        background-color: rgb(24, 23, 23);
+        padding: 1px 5px;
+        margin-left: 200px;
+    }
+    .Price span {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .ix-p img {
+        position: relative;
+        width: 40px;
+        height: 25px;
+    }
+    .station-ix img {
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 13px;
+        width: 60px;
+        height: 60px;
+    }
+    .footer {
+        padding: 70px;
+    }
+    .M {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 23px;
+        color: rgb(7, 7, 7);
+        padding-left: 83px;
+        padding-top: 20px;
+        margin-top: 20px;
+        border-top: 1px solid rgba(169, 169, 169, 0.589);
+    }
+    footer {
+        background-color: rgb(246, 245, 245);
+        border: solid 1px rgb(224, 220, 220);
+        height: 400px;
+        font-size: 16px;
+        margin-top: 70px;
+    }
+    footer section {
+        display: flex;
+        padding-top: 65px;
+    }
+    footer img {
+        width: 1.5%;
+        /* height: 2vw; */
+        margin-left: 18px;
+    }
+    .footer-img {
+        margin-left: 70px;
+    }
+    footer img:hover {
+        filter: blur(0.7px);
+        transition: 1s;
+    }
+    footer p {
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    footer a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        display: grid;
+        color: #181717;
+        padding-top: 20px;
+        opacity: 0.9;
+        transition: 0.5s;
+    }
+    footer a:hover {
+        opacity: 1;
+    }
+    footer div {
+        margin-left: 90px;
+    }
+    .end {
+        display: flex;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .end p {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 730px;
+        margin-left: 20px;
+    }
+    .end a {
+        margin-left: 30px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        display: grid;
+        color: #111010;
+    }

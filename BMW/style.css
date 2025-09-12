@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://www.topgear.com/sites/default/files/cars-car/carousel/2020/12/p90236604_highres_the-bmw-m3-csl-e46-0.jpg);
+    /* background-image: url(https://www.teahub.io/photos/full/27-275585_wiki-bmw-e46-m3-wallpapers-hd-free-data.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 2px rgba(38, 39, 41, 0.664) solid;
+    margin-right: 100px;
+    margin-left: 100px;
+    transition: 1.7s;
+    /* position: absolute; */
+}
+#dropdown-content {
+    position: relative;
+    display: none;
+    background-color: #f2f2f2;
+    padding: 20px;
+    /* margin-top: 10px; */
+    border: 1px solid #ccc;
+  } 
+nav a {
+    margin-left: 19px;
+    text-decoration: none;
+    padding: 10px 0px;
+    /* transition: text-decoration-color 600ms; */
+    color: rgb(20, 22, 23);
+    font: 1.3em sans-serif;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: black;
+    opacity: 1;
+    border-bottom: 2px solid;
+    padding: 29px 0px;
+}
+.container img {
+    width: 10%;
+    height: 8vh;
+    margin-right: 15px;
+}
+.container span img {
+    width: 35px;
+    height: 35px;
+}
+.icon {
+    margin-left: 310px;
+    word-spacing: 10px;
+}
+header p {
+    margin-left: 101px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-shadow: -1px 0px 4px rgba(210, 211, 214, 0.669);
+    font-weight: 550;
+}
+.container-p {
+    position: absolute;
+}
+.container-p span {
+    font-weight: 400;
+}
+article h1 {
+    font-family: sans-serif;
+    margin-top: 350px;
+    margin-left: 99px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgb(234, 234, 234);
+}
+.article1 p {
+    font-family: sans-serif;
+    margin-left: 98px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgb(234, 234, 234);
+}
+.article1 span {
+    margin-left: 102px;
+    font-family: sans-serif;
+    color: rgb(222, 226, 227);
+}
+.article1-section {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.article1-section a {
+    border: solid blue 2px;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.931);
+    background: blue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.9s;
+}
+.article1-section a:hover {
+    background: white;
+    color: blue;
+    border-color: white;
+}
+.section2-icon {
+    margin-top: 25px;
+    margin-left: 90px;
+}
+.section-p p {
+    margin-top: 110px;
+    text-align: center;
+    font-size: 20px;
+    color: #313030;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section2 h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #151515;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section2 nav {
+    display: flex;
+}
+.article2 {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.article2 p {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    color: #151515;
+}
+.article2-p {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 155px;
+    padding-right: 115px;
+    color: #151515;
+}
+.article2-a a {
+    margin-left: 217px;
+    margin-right: 35px;
+    padding: 15px 22px;
+    font-weight: 600;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #151515;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.article2-a a:hover {
+    border-color: white;
+}
+.section3-img {
+    background-image: url(https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2020/5er-m-sport-edition/bmw-530-m-sport-edition-stage-teaser-03.jpg);
+    margin-top: 90px;
+    display: inline-block;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+}
+.section3-p {
+    margin-left: 100px;
+    margin-top: 150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.section3-p1 {
+    margin-left: 4px;
+}
+.section3-p2 {
+    font-size: 55px;
+}
+.section3-p span {
+    font-size: 55px;
+    margin-bottom: 100px;
+}
+.section3-a {
+    margin-top: 50px;
+    margin-left: 104px;
+}
+.section3 a {
+    text-decoration: none;
+    color: #d0cdcd;
+    font-size: 15px;
+    border: 1px solid whitesmoke;
+    padding: 10px 50px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+.section3 a:hover {
+    border-color: rgba(255, 255, 255, 0);
+    color: #ede9e9;
+}
+.section4 {
+    height: 450px;
+    display: flex;
+}
+.section4-img {
+    background-image: url(https://shop.bmw.ru/images/social_image.png);
+    /* background-image: url(https://cdn-6.motorsport.com/static/img/amp/5300000/5320000/5321000/5321400/5321490/s6_1000845/1000845.jpg); */
+    background-position: center;
+    background-size: cover;
+    width: 580px;
+    height: 300px;
+    margin-top: 110px;
+    margin-left: 70px;
+    border-radius: 3px;
+}
+.section4-p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+.section4-p1 {
+    color: #5c5959;
+    font-weight: 550;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.section4-span {
+
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #252424;
+    /* textni o'zgartirish garak  */
+    /* tet topilmadi :( eror*/
+}
+.section4-p3 {
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.section4-a {
+    display: flex;
+}
+.section-a {
+    margin-left: 425px;
+    margin-top: 50px;
+}
+.section4 a {
+    font-size: 15px;
+    font-weight: 550;
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border: solid 2px blue;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.section4-p a:hover {
+    opacity: 2;
+}
+footer {
+    background-color: rgb(246, 245, 245);
+    border: solid 1px rgb(224, 220, 220);
+    height: 400px;
+    font-size: 16px;
+    margin-top: 70px;
+}
+.section-footer {
+    display: flex;
+    padding-top: 65px;
+    margin-left: 100px;
+}
+footer img {
+    width: 1.5%;
+    margin-left: 18px;
+}
+.footer-img {
+    margin-left: 80px;
+}
+footer img:hover {
+    filter: blur(0.8px);
+    transition: 0.6s;
+}
+footer p {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: grid;
+    color: #181717;
+    padding-top: 20px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+footer a:hover {
+    opacity: 1;
+}
+.footer-div2 {
+    margin-left: 90px;
+}
+.footer-div3 {
+    margin-left: 90px;
+}
+.footer-div4 {
+    margin-left: 90px;
+}
+/* @media only screen and (max-width:600px){
+    body {background-image: none;
+    }
+} */
